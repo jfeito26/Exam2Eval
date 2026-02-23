@@ -20,6 +20,10 @@ public class GunController : MonoBehaviour
         {
             Shoot();
         }
+        //else if (Unity_android)
+        //{
+        //    if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) ;
+        //}
     }
 
     void Shoot()
